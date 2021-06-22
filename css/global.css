@@ -1,0 +1,99 @@
+:root {
+    --black: #0d114f;
+    --white: #fafafa;
+    --red: #e83f5b;
+
+    --blue: #3485ff;
+    --light-blue: #e0ecff;
+
+    --background: #f6faff;
+    --overlay: #040911;
+    --icons-details: #a5b0c1;
+
+    --light-gray: #e5eaf1;
+    --dark-gray: #4d5e77;
+    --blue-gray: #a1b2cd;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+}
+
+body, button, input, textarea {
+    font-size: clamp(1.4rem, 1.6rem, 2vw);
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+input, button, .button {
+    height: 5rem;
+    border-radius: .8rem;
+}
+
+button, .button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--blue);
+    color: var(--white);
+
+    cursor: pointer;
+    transition: filter .2s;
+}
+
+button:hover, .button:hover {
+    filter: brightness(1.2);
+}
+
+button > img, .button > img {
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+button.outilned, .button.outlined {
+    background-color: var(--white);
+    color: var(--blue);
+    border: .2rem solid var(--blue);
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content header {
+    width: 80%;
+    margin: 3.5rem auto;
+}
+
+.content header img {
+    width: 16.7rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
