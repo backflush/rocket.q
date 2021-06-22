@@ -14,7 +14,9 @@ header {
 
 #bg {
     grid-area: left;
+
     background: url("../assets/home-bg.svg") no-repeat top/contain;
+    background-position-x: -10rem;
 }
 
 main {
@@ -22,10 +24,12 @@ main {
 
     display: flex;
     align-items: center;
+
+    margin-top: -12rem;
 }
 
 main .container {
-    width: min(36.5rem 100%);
+    width: min(36.5rem, 100%);
 }
 
 main h2 {
@@ -44,4 +48,24 @@ input {
 input, button, .button {
     width: 100%;
     margin-bottom: 1.8rem;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+}
+
+.separator div:nth-child(2) {
+    color: var(--blue-gray);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 0 1.35rem;
+    margin: 4rem 0;
+    line-height: 0;
+}
+
+.separator div:nth-child(1), .separator div:nth-child(3) {
+    background-color: var(--blue-gray);
+    width: 100%;
+    height: 1px;
 }
