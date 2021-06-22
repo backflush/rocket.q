@@ -69,3 +69,24 @@ input, button, .button {
     width: 100%;
     height: 1px;
 }
+
+.ball {
+    background-color: var(--blue);
+    position: fixed;
+    width: 21.2rem;
+    height: 21.2rem;
+    opacity: 0.1;
+    clip-path: circle();
+}
+
+.ball.top {
+    top: -38.5rem;
+    right: -40.455rem;
+    width: 63.3rem;
+    height: 63.3rem;
+}
+
+.ball.bottom {
+    bottom: -15rem;
+    right: 5.6rem;
+}
