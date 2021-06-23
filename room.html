@@ -35,16 +35,43 @@
 
                 <form action="">
                     <label for="question" class="sr-only">O que você quer perguntar?</label>
-                    <textarea name="question" id="question" cols="30" rows="10" placeholder="O que você quer perguntar?"></textarea>
+                    <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
 
                     <footer>
                         <div class="">
-                            <img src="" alt=""> Esta pergunta é anônima
+                            <img src="./assets/lock.svg" alt=""> Esta pergunta é anônima
                         </div>
 
                         <button>Enviar pergunta</button>
                     </footer>
                 </form>
+            </section>
+
+            <section id="questions">
+                <h2 class="sr-only">Pergutas da comunidade</h2>
+
+                <div class="questions">
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="./assets/avatar.svg" alt="">
+                            </div>
+
+                            <div class="question">
+                                <p>Qual a diferença entre const, var e let no JavaScript?</p>
+                            </div>
+                        </div>
+
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="./assets/check.svg" alt=""> Marcar como lida
+                            </a>
+                            <a href="#" class="delete">
+                                <img src="./assets/trash.svg" alt=""> Excluir pergunta
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
     </div>
