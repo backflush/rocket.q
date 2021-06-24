@@ -90,3 +90,54 @@
     padding: .8rem 2.4rem;
     line-height: 2.4rem;
 }
+
+.question-wrapper {
+    margin-bottom: .8rem;
+    padding: 2.4rem;
+    
+    background-color: var(--light-blue);
+
+    border-radius: 0 .8rem .8rem .8rem;
+}
+
+.question-wrapper .question-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+
+.question-wrapper .question-content .user {
+    background-color: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+}
+
+.question-wrapper .question-content p {
+    word-break: break-word;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 5.2rem;
+}
+
+.question-wrapper .actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.6rem;
+}
+
+.question-wrapper .actions > a {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.question-wrapper.read {
+    background-color: var(--medium-gray);
+}
+
+.question-wrapper.read .question-content .user {
+    background-color: var(--blue-gray);
+}
