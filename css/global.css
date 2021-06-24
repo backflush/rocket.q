@@ -74,6 +74,16 @@ button.outilned, .button.outlined {
     border: .2rem solid var(--blue);
 }
 
+button.danger, .button.danger {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+button.back, .button.back {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+}
+
 .content {
     width: 100%;
     margin: 0 auto;
