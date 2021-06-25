@@ -8,6 +8,14 @@
     display: flex;
 
     background-color: #040911cc;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-wrapper.active {
+    visibility: visible;
+    opacity: 1;
 }
 
 .modal-wrapper .modal {
