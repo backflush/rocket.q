@@ -2,9 +2,9 @@
   "name": "rocketq",
   "version": "1.0.0",
   "description": "It's an app of managment for an admin knows what his anonymous users have to say to him. ",
-  "main": "./src/app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/app.js"
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "Wesley Bernardes",
