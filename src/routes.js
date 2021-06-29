@@ -8,4 +8,6 @@ routes.get("/create-pass", (req, res) => res.render("create-pass"));
 
 routes.get("/room", (req, res) => res.render("room"));
 
+routes.post("/room/:room/:question/:action");
+
 module.exports = routes;
