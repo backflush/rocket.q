@@ -4,7 +4,8 @@
   "description": "It's an app of managment for an admin knows what his anonymous users have to say to him. ",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "init-db": "node src/database/init.js"
   },
   "keywords": [],
   "author": "Wesley Bernardes",
