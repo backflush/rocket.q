@@ -1,4 +1,4 @@
-const database = require("../database/config");
+const Database = require("../database/config");
 
 module.exports = {
     async create(req, res) {

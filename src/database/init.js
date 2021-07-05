@@ -7,7 +7,7 @@ const initDb = {
         await db.exec(`
             CREATE TABLE rooms (
                 id  INTEGER PRIMARY KEY,
-                pass TEXT
+                password TEXT
             )
         `);
 
