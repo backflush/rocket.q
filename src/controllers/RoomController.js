@@ -50,6 +50,5 @@ module.exports = {
             questions: questions,
             questionsRead: questionsRead
         });
-
     }
 }
