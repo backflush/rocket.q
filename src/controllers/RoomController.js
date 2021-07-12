@@ -51,4 +51,10 @@ module.exports = {
 
         res.redirect(`/room/${roomId}`);
     },
+
+    enter(req, res) {
+        const roomId = req.body.roomId;
+
+        res.redirect(`/room/${roomId}`);
+    }
 }
