@@ -18,7 +18,9 @@ module.exports = {
                 await db.run(`UPDATE questions SET read = 1 WHERE id = ${questionId}`);
             }
             
-            res.redirect(`/room/${roomId}`)
+            res.redirect(`/room/${roomId}`);
+        } else {
+            res.render("./partials/incorret-pass", { roomId: roomId });
         }
     },
 
