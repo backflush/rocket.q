@@ -141,3 +141,30 @@
 .question-wrapper.read .question-content .user {
     background-color: var(--blue-gray);
 }
+
+.no-questions {
+    text-align: center;
+
+    margin: 5.2rem 0 0 0;
+}
+
+.no-questions img {
+    max-width: 100%;
+    
+    margin: 0 0 1.2rem 0;
+}
+
+.no-questions p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.no-questions p + p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.9rem;
+
+    margin: 1.3rem 0 0 0;
+}

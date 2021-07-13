@@ -10,11 +10,20 @@ module.exports = {
 
         const questionsRead = await db.all(`SELECT * FROM questions WHERE room = ${roomId} AND read = 1`);
 
+        let isNotQuestions;
+
+        if(questions.length == 0) {
+            if(questionsRead.length == 0) {
+                isNotQuestions = true;
+            }
+        }
+
         res.render("room", {
             roomId: roomId,
             questions: questions,
-            questionsRead: questionsRead
-        });
+            questionsRead: questionsRead,
+            isNotQuestions: isNotQuestions
+        });        
     },
 
     async create(req, res) {

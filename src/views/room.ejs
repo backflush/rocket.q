@@ -17,7 +17,7 @@
                     <img src="/assets/copy.svg" alt="Desenho de duas folhas de papel semi-aninhadas, representando o ato de copiar.">
                 </div>
 
-                <a href="#" class="button">
+                <a href="/create-pass" class="button">
                     <img src="/assets/users-white.svg" alt="Desenho de duas pessoas com contorno branco, representando o ato de criar uma sala com mais pessoas."> Criar Sala
                 </a>
             </div>
@@ -45,6 +45,10 @@
                 <h2 class="sr-only">Pergutas da comunidade</h2>
 
                 <div class="questions">
+
+                    <% if(isNotQuestions) { %>
+                        <%- include("./partials/no-question") %> 
+                    <% } %> 
 
                     <% questions.forEach(question => { %>
                         <div class="question-wrapper">
@@ -82,8 +86,8 @@
                             </div>
     
                             <div class="actions">
-                                <a href="#" class="check" data-id="<%= questionRead.id %>"> 
-                                    <img src="/assets/check.svg" alt=""> Pergunta lida
+                                <a href="#" class="delete" data-id="<%= questionRead.id %>"> 
+                                    <img src="/assets/trash.svg" alt=""> Excluir pergunta
                                 </a>
                             </div>
                         </div>
