@@ -1,13 +1,13 @@
 # rocket.q
-![Preview-Screen](./public/assets/foodfyCover.jpeg)
+![Preview-Screen](./public/assets/rocketqCover.jpeg)
 
-If you want to take a look on all screens of the application, they are [here]().
+If you want to take a look on all screens of the application, they are [here](https://drive.google.com/drive/folders/1zdXwtjuGjoixLDncCmTYNifkHb00g6UF?usp=sharing).
 
 ## About this project
 
 The idea of the application is:
 
-_"Create an answer/ask questions to a admin reply it."_
+_"Create an answer/ask questions to an admin reply it."_
 
 ## Why?
 
