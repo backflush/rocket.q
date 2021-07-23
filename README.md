@@ -1,5 +1,5 @@
 # rocket.q
-![Preview-Screen](./public/assets/rocketqCover.jpeg)
+![Preview-Screen](./public/assets/rocketqCover.png)
 
 If you want to take a look on all screens of the application, they are [here](https://drive.google.com/drive/folders/1zdXwtjuGjoixLDncCmTYNifkHb00g6UF?usp=sharing).
 
