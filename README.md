@@ -21,9 +21,9 @@ And you can use this project as you wish!
 
 ## Some Observations about this App
 
-1 - The project isn't finished! I intend to continue it!
-2 - It's not responsive to mobile versions.
-3 - If the design doesn't display well, try to zoom out, some screens probably won't work well.
+- The project isn't finished! I intend to continue it!
+- It's not responsive to mobile versions.
+- If the design doesn't display well, try to zoom out, some screens probably won't work well.
 
 ## Functionalities
 
